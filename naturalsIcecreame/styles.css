@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.navOne{
+height: 80px;
+border: 1px solid gray;
+background-color: gray;
+
+}
+ul.navBar{
+list-style-type: none;
+width: 80%;
+margin: 20px auto;
+}
+li.navList{
+    /* float: left; */
+    display: inline-block;
+    margin: 3px 30px;
+}
+a.navItem:link{
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+}
+a.navItem:hover{
+color: green;
+}
+a.navItem:active{
+
+}
+a.navItem:visited{
+    color: white;
+
+}

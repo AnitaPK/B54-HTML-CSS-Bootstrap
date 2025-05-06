@@ -1,12 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second Program</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Second Program</title>
+  <link rel="icon" href="./logo.jpg">
+
+  <style>
+    /* body{
+      background-image: url('./bgImage.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    } */
+    img {}
+
+    .imageOne {
+      border: 2px solid rgba(255, 165, 0, 0.8);
+    }
+
+    .imageTwo {
+      opacity: 0.5;
+    }
+
+    .imageThree {
+      width: 90%;
+      height: auto;
+    }
+    .lGrad{
+      background-image: linear-gradient(to right bottom, orange,purple,green);
+    }
+    .rGrad{
+      background-image: radial-gradient( pink,blue,red);
+    }
+    .cGrad{
+      background-image: conic-gradient(at 60% 45%,green, white, yellow);
+    }
+    .containerDiv{
+      width: 500px;
+      height: 500px;
+    }
+    a.WSprouts:link{
+      background-color: pink;
+      border: 2px solid red ;
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: red;
+      text-decoration: none;
+
+    }
+    a.WSprouts:hover{
+      background-color: red;
+
+    }
+    a.WSprouts:active{
+      color: black;
+    }
+    a.WSprouts:visited{
+      background-color: pink;
+      color: red;
+
+    }
+    ul{
+      list-style-type: square;
+    }
+  </style>
 </head>
-<body>
-    <pre>
+
+<body >
+  Discriptive list 
+
+  <dl>
+    <dt>HTML</dt>
+    <dd>HYper Text Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheet</dd>
+  </dl>
+
+  Ordered List 
+
+  <ol type="I" start="101">
+      <li>Coffee</li>
+      <ol>
+        <li>Cold Cofee</li>
+        <li>Latte</li>
+      </ol>
+      <li>Tea</li>
+      <li>Cold Drink</li>
+  </ol>
+
+  
+  Unordered List 
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <ul>
+    <li>Black Tea</li>
+    <li>Green Tea</li>
+  </ul>
+  <li>Cold Drink</li>
+</ul>
+
+
+
+
+
+
+
+<a href="https://www.google.com/">
+  <img src="./naturalsIcecreame/assets/headerImage.jpg" alt="image not shown" style="width: 150px;height: 100px; border-radius: 50%;">
+</a>
+
+<a href="https://wisdomsprouts.in/" target="_blank" class="WSprouts">Wisdom Sprouts</a>
+  <pre>
     meta tag 
 
     keywords    seperated by ,
@@ -22,13 +129,27 @@ px rem em %
 
   1%      1vw
 </pre>
-<nav></nav>
-<aside></aside>
-<main></main>
-<section></section>
-<article></article>
-<footer></footer>
+  <nav></nav>
+  <aside></aside>
+  <main></main>
+  <section></section>
+  <article></article>
+  <footer></footer>
 
+
+  img
+  background image
+  icon
+
+  <img src="./naturalsIcecreame/assets/headerImage.jpg" alt="image not shown" class="imageOne">
+  <img src="./naturalsIcecreame/assets/headerImage.jpg" alt="image not shown" class="imageTwo">
+
+  <img src="./naturalsIcecreame/assets/headerImage.jpg" alt="image not shown" class="imageThree imageOne">
+
+<div class="containerDiv lGrad"></div>
+<div class="containerDiv rGrad"></div>
+<div class="cGrad containerDiv"></div>
 
 </body>
+
 </html>
