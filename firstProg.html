@@ -2,35 +2,140 @@
 
 <head>
 	<title>First Page</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		table{
+			width: 50%;
+			margin: 5px auto;
+		}
+		table, th, td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			/* border-spacing: 10px; */
+		}
+		th{
+			text-align: left;
+			color: beige;
+			background-color: black;
+		}
+		th, td{
+			padding: 5px 10px;
+		}
+		td{
+			/* background-color: aqua; */
+		}
+		tr{
+			background-color: aqua;
+		}
+
+		tr:nth-child(even){
+			background-color: chartreuse;
+		}
+		tr:hover{
+			background-color: burlywood;
+		}
+		.demoDiv{
+			width:300px;
+			height: 300px;
+			background-color: bisque;
+			overflow: auto;
+		}
+		/* .demoDiv:hover{
+			overflow: visible;
+		} */
+		#student{
+			margin:60px;
+		}
+		.GoToTopClass:link{
+			color: white;
+			background-color: black;
+			padding: 15px;
+			border-radius: 50%;
+		}
+		.GoToTopClass:visited{
+			color: white;
+
+		}
+		.BSizing{
+			background-color: red;
+			height: 200px;
+		}
+	</style>
 </head>
 
 <body>
+	<div id="GoToTop"></div>
+	<div class="BSizing" style="width: 300px; padding: 10px;border: 5px solid blue;box-sizing: border-box;"></div>
+	<img src="./bgImage.jpg" width="300" height="200">
+	<h3>Table</h3>
+<!-- <div style="width: 200px;overflow: auto;"> -->
+	<table id="student">
+		<thead>
+			<tr >
+				<th>Student ID</th>
+				<th>Student Name</th>
+				<th>Class</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>abcd1234</td>
+				<td>Renuka Deshmukh</td>
+				<td>MERN</td>
+				<td><button>Get Result</button></td>
+			</tr>
+			<tr>
+				<td>abcd1235</td>
+				<td>Sanika Bhangare</td>
+				<td>MERN</td>
+				<td><button>Get Result</button></td>
+			</tr>
+			<tr>
+				<td>abcd1234</td>
+				<td>Kajal Bhangare</td>
+				<td>MERN</td>
+				<td><button>Get Result</button></td>
+			</tr>
+		</tbody>
+	</table>
+<!-- </div> -->
+<div class="demoDiv">
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quam provident in aperiam ducimus minus nobis laudantium modi necessitatibus iusto, corrupti deserunt accusamus repudiandae ipsam consequuntur praesentium excepturi dicta deleniti voluptas, cumque perferendis libero? Doloremque cumque, ut dolore praesentium, itaque eius officiis sunt repudiandae quas corporis quidem tenetur possimus et! Nostrum sit molestias accusamus at in sequi amet sunt architecto blanditiis. Quae repellendus blanditiis corporis suscipit, quia maxime nesciunt modi, debitis incidunt quas exercitationem fugiat harum consequuntur consequatur? Sequi repudiandae aperiam quis debitis facere fugit veritatis sint laboriosam. Repellendus ducimus alias earum dolorem necessitatibus, numquam quis libero tempora, at id nam non sed aliquid possimus consequuntur rem. Pariatur molestias mollitia dolor a sed deserunt eligendi aliquid rem modi, iusto id amet, assumenda provident sapiente ipsum numquam! Veniam magnam voluptatem tempora perferendis doloremque hic, obcaecati assumenda dolor quo aliquam architecto nesciunt iste deleniti nisi, laborum nihil illo earum? Neque dolor explicabo nostrum quibusdam nihil molestiae necessitatibus inventore at fuga ipsa aperiam sequi nulla repudiandae autem, iste earum repellendus maxime, nobis illum saepe deserunt fugiat facilis, quae animi? Officiis rerum nostrum hic necessitatibus quam repudiandae assumenda fuga, eveniet, eligendi, debitis quis sed cum voluptate inventore asperiores fugit similique pariatur! Repellendus, laudantium modi dignissimos a atque velit perspiciatis aperiam veniam cumque amet rerum, consequuntur illum, doloremque aut quam earum neque vel beatae saepe! Ipsa placeat error consequatur similique atque magnam magni necessitatibus quas tenetur blanditiis quasi qui, harum, sit accusamus dolor inventore sint nesciunt modi illum. Sint, laboriosam voluptate mollitia in error illum perspiciatis totam corporis. Aliquid, dolorem illo. Ex, cupiditate corporis! Odio doloremque quis animi, numquam laudantium nostrum dolorum eaque praesentium, officiis nesciunt itaque modi veritatis porro earum. Magni quidem doloremque soluta laborum, explicabo quas, at eligendi necessitatibus, voluptates sunt dicta nihil? Debitis deleniti blanditiis amet nisi sapiente, ullam perferendis atque. Labore modi totam eveniet officiis! Accusamus distinctio quod illum aliquam sed aut tenetur suscipit illo omnis quaerat asperiores eaque magni obcaecati deleniti, accusantium culpa libero nemo a ut! Adipisci quam quisquam aspernatur ea! Tempora suscipit odio debitis saepe corrupti ut dolorum eum! Earum magnam modi quos ullam suscipit saepe quasi quisquam quidem error reiciendis! Optio dignissimos dolorum nesciunt saepe ipsa inventore provident laudantium qui iure atque rem mollitia cum, nemo ipsam consequuntur? Earum debitis explicabo quas commodi quos veritatis libero officiis animi sit sapiente ipsa a iusto unde alias omnis quod corporis natus at soluta molestiae quidem voluptate, expedita fugiat recusandae. Itaque quisquam soluta rerum sequi consequuntur aliquam beatae totam excepturi iste, accusantium natus nostrum tempore doloribus quo, consectetur qui ea, porro mollitia dolor praesentium doloremque. Excepturi iste nostrum velit corporis voluptates non saepe, vero incidunt laboriosam facilis ipsum quod in laborum. Quis obcaecati facere accusantium error ab, pariatur sed laborum exercitationem. Recusandae, perspiciatis a odio quos amet excepturi cumque officia ipsam consectetur totam asperiores consequatur sed, porro animi! Ut dolorem iste cum nostrum cupiditate doloremque libero odio, voluptatum ducimus totam similique vero voluptas repellat. Labore, nisi. Vero commodi eaque error accusamus, quae a repudiandae est cum enim magni atque? Cupiditate.
+</div>
+
 	<h1>This is Heading</h1>
 	<h2>I am learning MERN </h2>
 	<h6>This is last heading</h6>
-<pre>	html ,head body elements
+	<pre>	html ,head body elements
 	tag
 </pre>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perferendis corporis vero veritatis sequi provident, ducimus quidem enim natus dignissimos!</p>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et perferendis corporis vero veritatis sequi provident,
+		ducimus quidem enim natus dignissimos!</p>
 
-<div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis labore facilis optio esse nulla accusantium quos expedita magnam commodi. Fugit architecto optio doloremque vitae praesentium repudiandae hic provident eos expedita.</div>
+	<div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis labore facilis optio esse nulla
+		accusantium quos expedita magnam commodi. Fugit architecto optio doloremque vitae praesentium repudiandae hic
+		provident eos expedita.</div>
 
 
-<div>
-	<h3>Lorem ipsum dolor sit.</h3>
-</div>
+	<div>
+		<h3>Lorem ipsum dolor sit.</h3>
+	</div>
 
-<b>Thi is bold</b>
-<i>Thi is Italic</i>
-<em>this is em</em>
-<del>This is delete</del>
-<strong>This is strong</strong>
-<sup>Super script</sup>
-<sub>Subscript</sub>
-<span>Thi is span</span>
-<br>
-<hr>
-<pre>
+	<b>Thi is bold</b>
+	<i>Thi is Italic</i>
+	<em>this is em</em>
+	<del>This is delete</del>
+	<strong>This is strong</strong>
+	<sup>Super script</sup>
+	<sub>Subscript</sub>
+	<span>Thi is span</span>
+	<br>
+	<hr>
+	<pre>
 
 elements divide in 2 ways
 inline                                 block 
@@ -43,11 +148,13 @@ h1-h6, pre,p, b,i, em,del          div,span, nav,main,
 
 </pre>
 
-3 ways to add css 
-1 Inline CSS                           css added by style attribute     
-2 Internal CSS                         css added by style element
+	3 ways to add css
+	1 Inline CSS css added by style attribute
+	2 Internal CSS css added by style element
+	3 External CSS css added by .css file in head in link element
 
 
+<a href="#GoToTop" class="GoToTopClass"><i class="fa-solid fa-arrow-up"></i></a>
 </body>
 
 </html>
