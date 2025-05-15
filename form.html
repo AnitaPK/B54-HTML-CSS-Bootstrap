@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .grad{
+            background-image: linear-gradient(yellow,orange);
+        }
+        body{
+            background-image: linear-gradient(yellow,orange);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .formContainer{
+            width: 50%;
+            height: 90vh;
+            margin: 50px auto;
+            background-color: rgb(246, 246, 234);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 4px gray;
+        }
+        .heading{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .regForm{
+            width: 50%;
+            margin: 20px auto;
+        }
+        label{
+            font-size: larger;
+        }
+        .rowInput{
+            display: flex;
+            justify-content:space-around;
+            margin-bottom: 20px;
+        }
+        .rowInput input{}
+        sup{
+            color: red;
+        }
+        .inputClass{
+            background-color: rgb(252, 236, 216);
+            border: 2px solid orange;
+            padding: 3px 10px;
+        }
+        .inputClass:focus{
+            /* border: 5px solid orange; */
+            outline:2px double orange;
+            border-radius: 5px;
+        }
+        input[type='submit']{
+
+            padding:10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- name, address, number, tel, file, email, password,color,date radio, checkbox, submit, reset, button 
+
+<br> -->
+<div class="formContainer">
+    <h2 class="heading">Register here</h2>
+<form class="regForm" action="" method="">
+    <div class="rowInput">
+<label for="name">Name <sup >*</sup></label>
+<input type="text" id="name" class="inputClass" required name="fname"/>
+    </div>
+
+    <div class="rowInput">
+
+<label for="emailInfo">Email</label>
+<input type="email" id="emailInfo" name="emailID"/>
+</div>
+    <div class="rowInput">
+
+<label for="passwordInfo">Password</label>
+<input type="password" id="passwordInfo" disabled name="passwordInfo"/>
+</div>
+
+<label>Conatct number</label>
+<input type="text" pattern="[0-9]{10}"/>
+
+
+<!-- <input type="number" min="5"  max="20" step="3"/> -->
+
+
+<textarea rows="10" cols="20"></textarea>
+
+<input type="color" value="#ff0000"/>
+<input type="datetime-local" />
+
+<input type="file" />
+
+<label>Select Gender</label>
+<input type="radio" name="gender" value="male"/><label>Male</label>
+<input type="radio" name="gender" value="female"/><label>Female</label>
+<br>
+<input type="checkbox" /><label>HTML</label>
+<input type="checkbox" /><label>CSS</label>
+<input type="checkbox" /><label>JS</label>
+<input type="checkbox" /><label>React</label>
+
+    <div class="rowInput">
+
+<input type="submit" class="grad"/>
+</div>
+</form>
+
+</div>
+
+</body>
+</html>

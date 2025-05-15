@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.mainNavbar{
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    float: left;
+}
+.navContent{
+    display: flex;
+    justify-content: space-between;
+}
+.navList{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.listItem{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 25px;
+}
+.linkLink:link{
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+}
+.linkLink:hover{
+    color: green;
+}
+/* .linkLink:visited{
+    color: black;
+
+} */
+.active:link{
+    color: green;
+    border-bottom: 1px solid green;
+}
+.searchBar{
+    display: inline-block;
+    padding: 25px;
+    font-size: x-large;
+
+}
