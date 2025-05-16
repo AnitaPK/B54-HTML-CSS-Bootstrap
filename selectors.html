@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        p{
+            color: red;
+        }
+        .paraDemo{
+            text-align: center;
+        }
+        #ParaOne{
+            font-size: larger;
+        }
+
+        ul li a{
+
+        }
+        div p span{
+
+        }
+        div div span{
+
+        }
+        div p{
+            /* all p elements */
+        }
+        div + p{
+            background-color: blue;
+        }
+        p > b{
+            font-size: 90px;
+        }
+        div ~ p{
+            background-color: green;
+        }
+        img[alt]{
+            border: 5px solid red;
+        }
+        img[alt=""]{
+            border:5px solid green;
+        }
+        img[alt='11icecream']{
+            border: 5px solid pink;
+        }
+        img[alt*="ice"]{
+            border: 5px solid orange; /* universal or all */
+        }
+        img[alt$="ice"]{
+            border: 5px solid yellow; /* end with */
+        }
+
+        img[alt^='ice']{
+            border: 5px solid purple;
+        }
+        img[alt|="ice"]{
+            border: 5px solid black;  /* with -   */
+        }
+    </style>
+</head>
+<body>
+    <img src="./naturalsIcecreame/assets/headerImage.jpg" >
+    <img src="./naturalsIcecreame/assets/headerImage.jpg" alt="">
+    <img src="./naturalsIcecreame/assets/headerImage.jpg" alt="11icecream">
+    <img src="./naturalsIcecreame/assets/headerImage.jpg" alt="iceCreame111">
+    <img src="./naturalsIcecreame/assets/headerImage.jpg" alt="cream-ice">
+    <img src="./naturalsIcecreame/assets/headerImage.jpg" alt="ice-cream_ice">
+
+
+
+
+    <h3>Simple selectors</h3>
+    <p class="paraDemo" id="ParaOne">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus mollitia, omnis harum iusto odit quo quas ex maiores magnam obcaecati, ipsum debitis recusandae animi? Id amet iusto quam sint. Dignissimos!</p>
+
+<nav class="MainNav">
+    <ul class="navList">
+        <li class="navItems"><a class="navLink"></a></li>
+        <li class="navItems"><a class="navLink"></a></li>
+        <li class="navItems"><a class="navLink"></a></li>
+        <li class="navItems"><a class="navLink"></a></li>
+    </ul>
+</nav>
+<p>Lorem ipsum dolor sit.</p>
+<div>
+    <p>Lorem ipsum dolor sit amet<span> consectetur </span>adipisicing elit. Laudantium, expedita.</p>
+    <p>Lorem ipsum dolor sit amet <b>consectetur </b>adipisicing elit. Laudantium, expedita.</p>
+    <div>Lorem ipsum dolor sit amet <span>consectetur </span>adipisicing elit. Laudantium, expedita.</div>
+    <p>Lorem ipsum dolor sit amet <b>consectetur </b>adipisicing elit. Laudantium, expedita.</p>
+    <p>Lorem, ipsum dolor.<span>Lorem <b>Laudantium</b>ipsum dolor sit.</span></p>
+
+</div>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim?</p>
+
+</body>
+</html>
